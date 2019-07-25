@@ -1,0 +1,8 @@
+C:\Users\Shubham Chauhan\source\repos\AutomapperDemo\Models\bin\Debug\netcoreapp2.2\Models.deps.json
+C:\Users\Shubham Chauhan\source\repos\AutomapperDemo\Models\bin\Debug\netcoreapp2.2\Models.dll
+C:\Users\Shubham Chauhan\source\repos\AutomapperDemo\Models\bin\Debug\netcoreapp2.2\Models.pdb
+C:\Users\Shubham Chauhan\source\repos\AutomapperDemo\Models\obj\Debug\netcoreapp2.2\Models.csproj.CoreCompileInputs.cache
+C:\Users\Shubham Chauhan\source\repos\AutomapperDemo\Models\obj\Debug\netcoreapp2.2\Models.AssemblyInfoInputs.cache
+C:\Users\Shubham Chauhan\source\repos\AutomapperDemo\Models\obj\Debug\netcoreapp2.2\Models.AssemblyInfo.cs
+C:\Users\Shubham Chauhan\source\repos\AutomapperDemo\Models\obj\Debug\netcoreapp2.2\Models.dll
+C:\Users\Shubham Chauhan\source\repos\AutomapperDemo\Models\obj\Debug\netcoreapp2.2\Models.pdb

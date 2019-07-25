@@ -1,0 +1,12 @@
+C:\Users\Shubham Chauhan\source\repos\AutomapperDemo\AutomapperProfiles\bin\Debug\netcoreapp2.2\AutomapperProfiles.deps.json
+C:\Users\Shubham Chauhan\source\repos\AutomapperDemo\AutomapperProfiles\bin\Debug\netcoreapp2.2\AutomapperProfiles.dll
+C:\Users\Shubham Chauhan\source\repos\AutomapperDemo\AutomapperProfiles\obj\Debug\netcoreapp2.2\AutomapperProfiles.csproj.CoreCompileInputs.cache
+C:\Users\Shubham Chauhan\source\repos\AutomapperDemo\AutomapperProfiles\obj\Debug\netcoreapp2.2\AutomapperProfiles.AssemblyInfoInputs.cache
+C:\Users\Shubham Chauhan\source\repos\AutomapperDemo\AutomapperProfiles\obj\Debug\netcoreapp2.2\AutomapperProfiles.AssemblyInfo.cs
+C:\Users\Shubham Chauhan\source\repos\AutomapperDemo\AutomapperProfiles\bin\Debug\netcoreapp2.2\AutomapperProfiles.pdb
+C:\Users\Shubham Chauhan\source\repos\AutomapperDemo\AutomapperProfiles\bin\Debug\netcoreapp2.2\Models.dll
+C:\Users\Shubham Chauhan\source\repos\AutomapperDemo\AutomapperProfiles\bin\Debug\netcoreapp2.2\Models.pdb
+C:\Users\Shubham Chauhan\source\repos\AutomapperDemo\AutomapperProfiles\obj\Debug\netcoreapp2.2\AutomapperProfiles.csprojAssemblyReference.cache
+C:\Users\Shubham Chauhan\source\repos\AutomapperDemo\AutomapperProfiles\obj\Debug\netcoreapp2.2\AutomapperProfiles.csproj.CopyComplete
+C:\Users\Shubham Chauhan\source\repos\AutomapperDemo\AutomapperProfiles\obj\Debug\netcoreapp2.2\AutomapperProfiles.dll
+C:\Users\Shubham Chauhan\source\repos\AutomapperDemo\AutomapperProfiles\obj\Debug\netcoreapp2.2\AutomapperProfiles.pdb
