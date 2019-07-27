@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Models.Dtos;
 using Models.Entities;
 using AutoMapper;
+using System.Web.Http.Description;
 
 namespace AutomapperDemo.Controllers
 {
@@ -29,10 +30,29 @@ namespace AutomapperDemo.Controllers
         }
 
         // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        [HttpGet("person")]
+        [ResponseType(typeof(PersonDto))]
+        public IActionResult Get()
         {
-            return "value";
+            //Assume Person Entity coming from database
+            Person person = new Person()
+            {
+                Firstname = "John",
+                Lastname = "Doe",
+                Age = 25,
+                Sex = "Male",
+                Address = new Address()
+                {
+                    City = "New York City",
+                    HouseNumber = "10",
+                    State = "NY",
+                    ZipCode = "99999"
+                }
+            };
+
+            PersonDto personDto = _mapper.Map<PersonDto>(person);
+            Person person1 = _mapper.Map<Person>(personDto);
+            return Ok(personDto);
         }
 
         // POST api/values
@@ -41,16 +61,5 @@ namespace AutomapperDemo.Controllers
         {
         }
 
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
     }
 }

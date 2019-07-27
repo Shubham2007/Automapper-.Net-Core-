@@ -8,7 +8,16 @@ namespace AutomapperProfiles
     {
         public MappingProfile()
         {
+            //Simple Mapping
             CreateMap<UserDto, User>();
+            //CreateMap<User, UserDto>();  //or use ReverseMap() on above function to swap source and destination
+
+            //Complex Mapping With Different Name Properties
+            CreateMap<Person, PersonDto>()
+                .ForMember(dest => dest.City, opts => opts.MapFrom(src => src.Address.City))
+                .ForMember(dest => dest.Name, opts => opts.MapFrom(src => src.Firstname))
+                .ReverseMap();
+
         }
     }
 }
